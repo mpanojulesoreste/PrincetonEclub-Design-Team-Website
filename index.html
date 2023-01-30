@@ -1,92 +1,307 @@
-<!doctype html>
-<html class="home blog no-js" lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
     <title>Design Team | Princeton Entrepreneurship Club</title>
 
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-          type="text/css" media="all"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC%3A400%2C700%7CLato%3A400%2C700%2C400italic%2C700italic&amp;ver=4.9.8"
-          type="text/css" media="screen"/>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="print.css" type="text/css" media="print"/>
-    <script src='js/jquery-3.0.0.min.js'></script>
-    <script src='js/jquery-migrate-3.0.1.min.js'></script>
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/logo_1.png">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+
 </head>
-<body class="home sticky-menu sidebar-off" id="top">
 
-<header class="header">
-
-    <div class="header-wrap">
-
-        <div class="logo plain logo-left">
-            <div class="site-title">
-                <a href="index.html"><img src="images/logo.png" style="width: 60px; height: 60px;" alt="eclub design team logo"></a>
-            </div>
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="loader">
+            <span class="inner1"></span>
+            <span class="inner2"></span>
+            <span class="inner3"></span>
         </div>
+    </div>
 
-
-        <nav id="nav" role="navigation">
-            <div class="table">
-                <div class="table-cell">
-                    <ul id="menu-menu-1">
-                        <li class="menu-item">
-                            <a href="index.html">Home</a></li>
-                        <li class="menu-item">
-                            <a href="#">About</a></li>
-                        <li class="menu-item">
-                            <a href="#">Submission</a></li>
-                        <li class="menu-item">
-                            <a href="#">Schedule</a></li>
-                        <li class="menu-item">
-                            <a href="#">Showcase</a></li>
-                        <li class="menu-item">
-                            <a href="#">FAQ</a></li>
-                    </ul>
+    <!-- Search Form Area -->
+    <div class="fancy-search-form d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Close Btn -->
+                    <div class="search-close-btn" id="closeBtn">
+                        <i class="ti-close" aria-hidden="true"></i>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </div>
 
-</header>
-<div class="hero" style="background-image: url('images/design_background.png'); text-align:left;">
-    <div class="hero-inner">
-        <div class="inner">
-            <h1>Eclub Design</h1>
-            <h6>Design Team Design Team Design Team Design Team Design Team Design Team Design Team Design Team Design Team Design Team Design Team </h6>
-            <a href="#" class="more-link">Register Now</a>
-            <h2><span class="border border-top border-bottom">Eclub logo</span></h2>
-            <div class="hero-line-one"></div>
-        </div>
-        <a class="more-arrow" href="#content"><i class="fa fa-chevron-down"></i><span>Scroll Down</span></a>
-    </div>
-</div>
-<footer class="footer">
-    <div class="footer-wrap">
-        <div id="footer-text">
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design Team </p>
-        </div>
-        <a href="#top" id="btt">Top <i class="fa fa-chevron-up"></i></a>
-    </div>
-</footer>
-
-<div id="topsearch">
-    <div class="table">
-        <div class="table-cell">
-            <form role="search" method="get" class="searchform" action="index.html">
-                <div>
-                    <input type="text" value="" name="s" class="s" placeholder="Type and hit enter"/>
-                    <input type="submit" class="searchsubmit" value="Search"/>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area" id="header">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <nav class="h-100 navbar navbar-expand-lg align-items-center">
+                        <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" style="width: 60px; height: 60px" alt="eclub design team logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fancyNav" aria-controls="fancyNav" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
+                        <div class="collapse navbar-collapse" id="fancyNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://jules404.netlify.app/">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://jules404.netlify.app/">Request a Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://jules404.netlify.app/">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://jules404.netlify.app/">FAQ</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="https://jules404.netlify.app/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design & Impact</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="https://jules404.netlify.app/">About</a>
+                                        <a class="dropdown-item" href="https://jules404.netlify.app/">Showcase</a>
+                                        <a class="dropdown-item" href="https://jules404.netlify.app/">Schedule</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </form>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Hero Area Start ***** -->
+    <div class="fancy-hero-area bg-gray">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="fancy-hero-content text-left">
+                        <h2>Eclub Design</h2>
+                        <h4>Welcome to the official Website of Princeton Eclub Design Team</h4>
+                        <a href="https://jules404.netlify.app/" class="btn fancy-btn fancy-active">Request a Design</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <a href="#topsearch" class="search-trigger"><i class="fa fa-times"></i></a>
-</div>
+    <!-- ***** Hero Area End ***** -->
+    <!-- ***** Top Feature Area Start ***** -->
+       <div class="fancy-top-features-area bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="fancy-top-features-content">
+                        <div class="row no-gutters">
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-feature">
+                                    <hr style=" height: 5px; border-width: 0; background-color: #fff; margin-left: 0;">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-feature">
+                                    <a><img src="img/core-img/logo_2.png" style="width: 250px; height: 81px; align-items: center;" alt="eclub design team logo"> </a>   
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="single-top-feature">
+                                    <hr style=" height: 5px; border-width: 0; background-color: #fff; margin-right: 0;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    <!-- ***** Top Feature Area End ***** -->
+    <!-- ***** About Us Area Start ***** -->
+    <section class="fancy-about-us-area bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="about-us-text">
+                        <h2>ABOUT E-CLUB DESIGN </h2>
+                        <p>We establish the branding guidelines and visual identity for E-Club and its sub-teams, including posters, logos, web design, as well as other markerting and recruitment materials.</p>
+                        <p>We also run Design & Impact, a competition to bring awareness to social impact on campus through design. Design is creating a more welcoming and easily accessible environment for students of all experiences who are interested in design, whether you are a seasoned designer looking to build your portfolio or a beginner learning how to use design tools like Adobe Creative Suite.</p>
+                        <a href="https://jules404.netlify.app/" class="btn fancy-btn fancy-dark">Learn More </a>
+                    </div>
+                </div>
 
+                <div class="col-12 col-lg-6 col-xl-5 ml-xl-auto">
+                    <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/bg-img/logo_black.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** About Us Area End ***** -->
 
-<script>var ie9 = false;</script>
-<script src="js/global-plugins.min.js"></script>
-<script src="js/main.js"></script>
+    <!-- ***** Blog Area Start ***** -->
+    <section class="fancy-blog-area section-padding-100-70 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Past Designs</h2>
+                        <p>Take a glimpse of what we can do for your brand. We major our success in through the clients we serve.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Blog -->
+                <div class="col-12 col-md-4">
+                    <div class="single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/blog-img/blog-1.png" alt="">
+                    </div>
+                </div>
+                <!-- Single Blog -->
+                <div class="col-12 col-md-4">
+                    <div class="single-blog-area wow fadeInUp" data-wow-delay="1s">
+                        <img src="img/blog-img/blog-1.png" alt="">
+                    </div>
+                </div>
+                <!-- Single Blog -->
+                <div class="col-12 col-md-4">
+                    <div class="single-blog-area wow fadeInUp" data-wow-delay="1.5s">
+                        <img src="img/blog-img/blog-1.png" alt="">
+                    </div>
+                </div>
+                <!-- Single Blog -->
+                <div class="col-12 col-md-4">
+                    <div class="single-blog-area wow fadeInUp" data-wow-delay="1s">
+                        <img src="img/blog-img/blog-1.png" alt="">
+                    </div>
+                </div>
+                <!-- Single Blog -->
+                <div class="col-12 col-md-4">
+                    <div class="single-blog-area wow fadeInUp" data-wow-delay="1s">
+                        <img src="img/blog-img/blog-1.png" alt="">
+                    </div>
+                </div>
+                <!-- Single Blog -->
+                <div class="col-12 col-md-4">
+                    <div class="single-blog-area wow fadeInUp" data-wow-delay="1s">
+                        <img src="img/blog-img/blog-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Blog Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="fancy-footer-area bg-gray">
+        <div class="footer-content section-padding-80-50">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <h6>E-Club Design</h6>
+                            <p>Establishing branding guidelines and visual identity for you.</p>
+                            <div class="footer-social-widegt d-flex align-items-center">
+                                <a href="https://jules404.netlify.app/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://jules404.netlify.app/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://jules404.netlify.app/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="https://jules404.netlify.app/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://jules404.netlify.app/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <h6>Twitter Feed</h6>
+                            <div class="single-tweet">
+                                <a href="https://jules404.netlify.app/"><i class="fa fa-twitter" aria-hidden="true"></i> With the popularity of our designs, you might consider joining us as well. <br>https://buff.ly/3zttoJxz</a>
+                                <span>About 20 hours ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <h6>Link Categories</h6>
+                            <nav>
+                                <ul>
+                                    <li><a href="https://jules404.netlify.app/"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Home</a></li>
+                                    <li><a href="https://jules404.netlify.app/"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Designs</a></li>
+                                    <li><a href="https://jules404.netlify.app/"><i class="fa fa-angle-double-right" aria-hidden="true"></i> work center</a></li>
+                                    <li><a href="https://jules404.netlify.app/"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Courses</a></li>
+                                    <li><a href="https://jules404.netlify.app/"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Our Test</a></li>
+                                    <li><a href="https://jules404.netlify.app/"><i class="fa fa-angle-double-right" aria-hidden="true"></i> About us</a></li>
+                                    <li><a href="https://jules404.netlify.app/"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Mission</a></li>
+                                    <li><a href="https://jules404.netlify.app/"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Team</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Footer Widget -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <h6>Contact Us</h6>
+                            <p>+1(609)-785-8972<br>info@princetoneclub.com</p>
+                            <p>Princeton, New Jersey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copywrite -->
+        <div class="footer-copywrite-area bg-gray">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="copywrite-content h-100 d-flex align-items-center justify-content-between">
+                            <!-- Copywrite Text -->
+                            <div class="copywrite-text">
+                                <p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | E-Club Design </p>
+                            </div>
+                            <!-- Footer Nav -->
+                            <div class="footer-nav">
+                                <nav>
+                                    <ul>
+                                        <li><a href="https://jules404.netlify.app/">Contact us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
 </body>
-</html>
